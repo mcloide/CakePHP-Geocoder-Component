@@ -167,6 +167,13 @@ class GeocoderComponent extends Object
      */
     public $status = null;
 
+	/**
+	 * @see parent::startUp
+	 */
+    public function startUp($controller) {
+        $this->controller = $controller;
+    }
+
     /**
      * Perform a geocoding request
      *
