@@ -29,7 +29,7 @@
  * @copyright  Copyright (c) 2011 Signified (http://signified.com.au)
  * @license    http://www.opensource.org/licenses/bsd-license    New BSD License
  */
-class GeocoderComponent extends Object
+class GeocoderComponent extends Component
 {
     /**
      * The parameters passed to the web service
